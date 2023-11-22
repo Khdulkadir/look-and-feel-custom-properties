@@ -79,3 +79,21 @@ pre {
   border-radius: 10px;
   line-height: 1.5;
 }
+
+h2 {
+  font-family: "AvenirBlack";
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "AvenirBlack";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+article.globals {
+  padding-bottom: 20px;
+}
