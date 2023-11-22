@@ -20,10 +20,11 @@
   --accent-color-light: #f6f5ff;
   --text-color: #707070;
   --selection-color: #000;
-
+  --element-spacing: margin-top: 20px;
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
   --border-hover: 0.1rem solid var(--black);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  
 }
 
 *,
@@ -70,12 +71,13 @@ p {
   max-width: 35em;
 }
 
-pre {
+code {
+  display: block;
+  font-family: var(--code-font);
+  white-space: pre;
   background-color: darkslategray;
   color: rgb(188, 178, 125);
-  min-width: 400px;
-  width: fit-content;
-  padding: 10px;
+  max-width: 15em;
   border-radius: 10px;
   line-height: 1.5;
 }
@@ -95,5 +97,5 @@ h3 {
 }
 
 article.globals {
-  padding-bottom: 20px;
+  margin: var(--element-spacing);
 }
