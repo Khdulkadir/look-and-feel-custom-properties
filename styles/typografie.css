@@ -1,3 +1,5 @@
+/*PARAGRAFEN*/
+
 .typografie-avenirmedium {
   font-family: "AvenirMedium";
 }
@@ -12,6 +14,8 @@ p.typografie {
   border-radius: var(--primary-borderradius);
 }
 
+/*HEADINGS*/
+
 h2.typografie,
 h3.typografie,
 h4.typografie {
@@ -21,12 +25,16 @@ h4.typografie {
   padding: 10px;
 }
 
+/*HEADING LINKS*/
+
 h2 > a,
 h3 > a,
 h4 > a,
 p > a {
   color: var(--secondary-color);
 }
+
+/*HEADING LINKS HOVER*/
 
 h2 > a:hover,
 h3 > a:hover,
