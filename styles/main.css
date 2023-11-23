@@ -16,15 +16,16 @@
 :root {
   --body-color: #e4e9f7;
   --primary-color: #fff;
+  --secondary-color: #000;
   --accent-color: #ff0000;
-  --accent-color-light: #f6f5ff;
-  --text-color: #707070;
-  --selection-color: #000;
-  --element-spacing: margin-top: 20px;
-  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
-  --border-hover: 0.1rem solid var(--black);
-  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  
+
+  --primary-font: 400 16px/1.5 "Avenir-roman", "Arial", sans-serif;
+  --secondary-font: 700 2.25rem/1.5 "AvenirBlack", "Arial", sans-serif;
+  --tertiary-font: 700 2rem/1.5 "AvenirBlack", "Arial", sans-serif;
+  --quartiary-font: 700 1.3462rem/1.5 "AvenirBlack", "Arial", sans-serif;
+
+  --element-spacing: 5px 0 5px 0;
+  --primary-borderradius: 10px;
 }
 
 *,
@@ -35,8 +36,6 @@
 
 * {
   margin: 0;
-  padding: 0;
-  font-family: "Avenir-roman", "Arial", sans-serif;
 }
 
 body {
@@ -53,7 +52,6 @@ section {
   display: none;
   position: absolute;
   top: 0;
-  top: 0;
   left: 260px;
   min-height: 100vh;
   background-color: var(--body-color);
@@ -61,41 +59,37 @@ section {
   padding: 4em;
 }
 
-section h2 {
-  padding-bottom: 0.5em;
+.tabcontent > *,
+.tabcontent > * > * {
+  padding: var(--element-spacing);
 }
 
 p {
-  line-height: 1.5;
-  font-size: 16px;
   max-width: 35em;
+  font: var(--primary-font);
+  color: var(--secondary-color);
 }
 
 code {
   display: block;
-  font-family: var(--code-font);
-  white-space: pre;
+  font-family: var(--primary-font);
   background-color: darkslategray;
   color: rgb(188, 178, 125);
   max-width: 15em;
-  border-radius: 10px;
-  line-height: 1.5;
+  border-radius: var(--primary-borderradius);
 }
 
 h2 {
-  font-family: "AvenirBlack";
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.5;
+  font: var(--secondary-font);
+  color: var(--secondary-color);
 }
 
 h3 {
-  font-family: "AvenirBlack";
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.5;
+  font: var(--tertiary-font);
+  color: var(--secondary-color);
 }
 
-article.globals {
-  margin: var(--element-spacing);
+h4 {
+  font: var(--quartiary-font);
+  color: var(--secondary-color);
 }
