@@ -19,10 +19,10 @@
   --secondary-color: #000;
   --accent-color: #ff0000;
 
-  --primary-font: 400 16px/1.5 "Avenir-roman", "Arial", sans-serif;
-  --secondary-font: 700 2.25rem/1.5 "AvenirBlack", "Arial", sans-serif;
-  --tertiary-font: 700 2rem/1.5 "AvenirBlack", "Arial", sans-serif;
-  --quartiary-font: 700 1.3462rem/1.5 "AvenirBlack", "Arial", sans-serif;
+  --paragraph-font: 400 16px/1.5 "Avenir-roman", "Arial", sans-serif;
+  --heading-2-font: 700 2.25rem/1.5 "AvenirBlack", "Arial", sans-serif;
+  --heading-3-font: 700 2rem/1.5 "AvenirBlack", "Arial", sans-serif;
+  --heading-4-font: 700 1.3462rem/1.5 "AvenirBlack", "Arial", sans-serif;
 
   --element-spacing: 5px 0 5px 0;
   --primary-borderradius: 10px;
@@ -66,7 +66,7 @@ section {
 
 p {
   max-width: 35em;
-  font: var(--primary-font);
+  font: var(--paragraph-font);
   color: var(--secondary-color);
 }
 
@@ -80,16 +80,16 @@ code {
 }
 
 h2 {
-  font: var(--secondary-font);
+  font: var(--heading-2-font-font);
   color: var(--secondary-color);
 }
 
 h3 {
-  font: var(--tertiary-font);
+  font: var(--heading-3-font-font);
   color: var(--secondary-color);
 }
 
 h4 {
-  font: var(--quartiary-font);
+  font: var(--heading-4-font);
   color: var(--secondary-color);
 }
