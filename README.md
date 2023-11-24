@@ -1,6 +1,6 @@
-> _Fork_ deze deeltaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+Er was veel css code die meerdere keren werd herhaald in de Living Styleguide. Bijvoorbeeld kleuren en fonts. Ik heb deze css code vereenvoudigd door er custom properties van te maken.
+
+https://github.com/Khdulkadir/look-and-feel-custom-properties/wiki/Ontwerpen-Bouwen
 
 ## Licentie
 
