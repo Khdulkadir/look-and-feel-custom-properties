@@ -80,12 +80,12 @@ code {
 }
 
 h2 {
-  font: var(--heading-2-font-font);
+  font: var(--heading-2-font);
   color: var(--secondary-color);
 }
 
 h3 {
-  font: var(--heading-3-font-font);
+  font: var(--heading-3-font);
   color: var(--secondary-color);
 }
 
